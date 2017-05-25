@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/biology"
+    tools:context="com.example.android.quizapp.MainActivity">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/Biology"
+            android:textColor="#D50000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Enter"
+            android:textColorHint="#D50000"
+            android:inputType="textCapWords"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:id="@+id/Q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/q1"
+            android:textColor="#D50000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed">
+
+            <RadioButton
+                android:id="@+id/true1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <RadioButton
+                android:id="@+id/false1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:fontFamily="sans-serif-condensed"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/Q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/q2"
+            android:textColor="#D50000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed">
+
+            <RadioButton
+                android:id="@+id/true2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <RadioButton
+                android:id="@+id/false2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:fontFamily="sans-serif-condensed"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/Q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/q3"
+            android:textColor="#D50000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed">
+
+            <RadioButton
+                android:id="@+id/true3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <RadioButton
+                android:id="@+id/false3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:fontFamily="sans-serif-condensed"/>
+        </RadioGroup>
+
+
+
+        <TextView
+            android:id="@+id/Q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/q4"
+            android:textColor="#D50000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <CheckBox
+            android:id="@+id/CheckBox4.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4.1"
+            android:fontFamily="sans-serif-condensed"/>
+        <CheckBox
+            android:id="@+id/CheckBox4.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4.2"
+            android:fontFamily="sans-serif-condensed"/>
+        <CheckBox
+            android:id="@+id/CheckBox4.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4.3"
+            android:fontFamily="sans-serif-condensed"/>
+        <CheckBox
+            android:id="@+id/CheckBox4.4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4.4"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:id="@+id/Q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/q5"
+            android:textColor="#D50000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <EditText
+            android:id="@+id/EditText"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#000000"
+            android:inputType="textCapWords"
+            android:fontFamily="sans-serif-condensed"/>
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="145dp"
+            android:padding="20dp"
+            android:text="submit"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed"/>
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</ScrollView>
+</RelativeLayout>
