@@ -88,6 +88,13 @@ public class MainActivity extends AppCompatActivity {
             answers++;
         }
     }
+
+
+    private void resetscore(){
+
+        answers =0;
+    }
+
 /*
 * check all question and display the result to user
 * */
@@ -96,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
             checkAllQuestions();
             Toast.makeText(MainActivity.this, "Correct Answers: " + answers+ "/5",
                     Toast.LENGTH_LONG).show();
+            resetscore();
 
         }
     };
